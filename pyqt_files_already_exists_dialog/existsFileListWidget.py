@@ -7,8 +7,8 @@ from PyQt5.QtWidgets import QListWidget, QListWidgetItem
 class ExistsFileListWidget(QListWidget):
     def __init__(self):
         super().__init__()
-        _basename_absname_dict = defaultdict(str)
-        _only_filename_flag = False
+        self._basename_absname_dict = defaultdict(str)
+        self._only_filename_flag = False
         self.__existsDialogDontAskAgainChecked = False
 
     def setOnlyFileName(self, flag: bool):
