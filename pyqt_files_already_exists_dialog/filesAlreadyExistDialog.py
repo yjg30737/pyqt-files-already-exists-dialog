@@ -6,7 +6,7 @@ from simplePyQt5.okCancelWidget import OkCancelWidget
 from simplePyQt5.leftRightWidget import LeftRightWidget
 from simplePyQt5.topLeftRightWidget import TopLeftRightWidget
 
-from pyqt_files_already_exists_dialog import ExistsFileListWidget
+from pyqt_files_already_exists_dialog.existsFileListWidget import ExistsFileListWidget
 
 
 class FilesAlreadyExistDialog(QDialog):
