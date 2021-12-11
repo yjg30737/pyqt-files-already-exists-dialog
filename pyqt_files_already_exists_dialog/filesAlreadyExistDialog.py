@@ -6,10 +6,10 @@ from simplePyQt5.okCancelWidget import OkCancelWidget
 from simplePyQt5.leftRightWidget import LeftRightWidget
 from simplePyQt5.topLeftRightWidget import TopLeftRightWidget
 
-import pyqt_top_left_right_file_list_widget
+from pyqt_files_already_exists_dialog import ExistsFileListWidget
 
 
-class FilesAlreadyExistsDialog(QDialog):
+class FilesAlreadyExistDialog(QDialog):
     dontAskAgainChecked = pyqtSignal(bool)
     
     def __init__(self):
@@ -21,8 +21,7 @@ class FilesAlreadyExistsDialog(QDialog):
         self.setFixedSize(self.sizeHint())
         self.setWindowFlags(Qt.WindowCloseButtonHint)
 
-        self.__listWidget = pyqt_top_left_right_file_list_widget.fileListWidget.FileListWidget()
-        self.__listWidget.setAcceptDrops(False)
+        self.__listWidget = ExistsFileListWidget()
         self.__listWidget.setFixedHeight(300)
         
         self.__exists_text = '{0} of files already exists.'
