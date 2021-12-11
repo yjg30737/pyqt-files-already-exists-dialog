@@ -6,7 +6,6 @@ from PyQt5.QtWidgets import QListWidget, QListWidgetItem
 class ExistsFileListWidget(QListWidget):
     def __init__(self):
         super().__init__()
-        self.__initUi()
 
     def setOnlyFileName(self, flag: bool):
         self._only_filename_flag = flag
