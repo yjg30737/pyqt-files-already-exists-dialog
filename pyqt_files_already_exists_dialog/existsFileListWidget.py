@@ -23,7 +23,7 @@ class ExistsFileListWidget(QListWidget):
             item.setText(basename)
         else:
             item.setText(absname)
-        self.setItem(item)
+        self.addItem(item)
 
     def setItemAsBaseName(self, flag: bool):
         self._only_filename_flag = flag

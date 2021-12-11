@@ -71,7 +71,7 @@ class FilesAlreadyExistDialog(QDialog):
                 item = QListWidgetItem(file)
             elif isinstance(file, QListWidgetItem):
                 item = QListWidgetItem(file.text())
-            self.__listWidget.addItem(item)
+            self.__listWidget.setItem(item)
 
     def setOnlyFilename(self, state):
         self.__onlyFileNameChkBox.setChecked(state == Qt.Checked)
