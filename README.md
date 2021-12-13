@@ -7,7 +7,7 @@ PyQt5 >= 5.8
 ## Setup
 ```pip3 install git+https://github.com/yjg30737/pyqt-files-already-exists-dialog.git --upgrade```
 
-## Include package
+## Included package
 * <a href="https://github.com/yjg30737/simplePyQt5.git">simplePyQt5</a>
 
 ## Example
