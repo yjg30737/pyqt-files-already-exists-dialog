@@ -1,1 +1,1 @@
-git+https://git@github.com/yjg30737/simplePyQt5.git@master
+simplePyQt5>=0.0.1
