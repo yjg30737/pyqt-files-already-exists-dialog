@@ -5,7 +5,7 @@ PyQt files already exists dialog. Like "These files already exist. Would you add
 PyQt5 >= 5.8
 
 ## Setup
-```pip3 install git+https://github.com/yjg30737/pyqt-files-already-exists-dialog.git --upgrade```
+`python -m pip install pyqt-files-already-exists-dialog`
 
 ## Included package
 * <a href="https://github.com/yjg30737/simplePyQt5.git">simplePyQt5</a>
